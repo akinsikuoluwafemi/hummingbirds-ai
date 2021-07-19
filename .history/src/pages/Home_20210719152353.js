@@ -6,6 +6,7 @@ import ComVisionHome from '../assets/videos/comvision-home.mp4';
 export default function Home() {
   return (
     <div>
+
       <video
         autoPlay
         loop
@@ -25,7 +26,19 @@ export default function Home() {
       >
         <source src={ComVisionHome} type="video/mp4"/>
       </video>
-      <div style={{height: '100vh'}} className="container">Home</div>
+
+      <div
+        style={{
+          height: '100vh',
+          zIndex: '1000'
+          background: 'black'
+        }}
+      >
+        <p className="container">Home</p>
+
+      </div>
+     
+      <section style={{ height: '100vh' }}>another section</section>
     </div>
   )
 }
