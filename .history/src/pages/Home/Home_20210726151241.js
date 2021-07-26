@@ -88,6 +88,7 @@ export default function Home() {
 
 				ctx.lineWidth = 100;
 				ctx.beginPath();
+				ctx.lineJoin = "round";
 				ctx.lineCap = 'round';
 
 				ctx.moveTo(old.x, old.y);

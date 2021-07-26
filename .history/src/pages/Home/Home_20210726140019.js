@@ -25,9 +25,8 @@ export default function Home() {
 
 	// console.log(size);
 
-	// const url = 'https://cloud.githubusercontent.com/assets/4652816/12771961/5341c3c4-ca68-11e5-844c-f659831d9c00.jpg';
+	const url = 'https://cloud.githubusercontent.com/assets/4652816/12771961/5341c3c4-ca68-11e5-844c-f659831d9c00.jpg';
 
-	const url = 'https://res.cloudinary.com/dt69gb9me/image/upload/v1627305603/speed_insc5v.png';
 
 	useEffect(() => {
 		
@@ -86,15 +85,12 @@ export default function Home() {
 				ctx.arc(x, y, 10, 0, 2 * Math.PI);
 				ctx.fill();
 
-				ctx.lineWidth = 100;
+				ctx.lineWidth = 120;
 				ctx.beginPath();
-				ctx.lineCap = 'round';
-
 				ctx.moveTo(old.x, old.y);
 				ctx.lineTo(x, y);
 				ctx.stroke();
-				console.log(ctx);
-				
+				// console.log(ctx);
 
     		old = { x: x, y: y };
 

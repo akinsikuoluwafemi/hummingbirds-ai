@@ -86,10 +86,8 @@ export default function Home() {
 				ctx.arc(x, y, 10, 0, 2 * Math.PI);
 				ctx.fill();
 
-				ctx.lineWidth = 100;
+				ctx.lineWidth = 120;
 				ctx.beginPath();
-				ctx.lineCap = 'round';
-
 				ctx.moveTo(old.x, old.y);
 				ctx.lineTo(x, y);
 				ctx.stroke();
