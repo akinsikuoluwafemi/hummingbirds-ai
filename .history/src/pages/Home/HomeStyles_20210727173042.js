@@ -15,6 +15,7 @@ export const Banner = styled.div`
 	width: 100%;
 	position: relative;
 	overflow-y: hidden!important;
+	background: pink;
 
 `
 

@@ -16,6 +16,7 @@ export const Banner = styled.div`
 	position: relative;
 	overflow-y: hidden!important;
 
+
 `
 
 
@@ -42,6 +43,7 @@ export const BannerTitle = styled.h1`
 	top: 50%;
 	left: -18px;
 	color: white;
+	background: red;
 	// z-index: 10;
 	z-index: 4;
 	margin-top: 7rem;

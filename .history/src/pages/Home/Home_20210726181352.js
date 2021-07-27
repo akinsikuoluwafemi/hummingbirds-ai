@@ -27,7 +27,7 @@ export default function Home() {
 
 	// const url = 'https://cloud.githubusercontent.com/assets/4652816/12771961/5341c3c4-ca68-11e5-844c-f659831d9c00.jpg';
 
-	const url = 'https://res.cloudinary.com/dt69gb9me/image/upload/v1627400018/SPEED_1_ckjprk.png';
+	const url = 'https://res.cloudinary.com/dt69gb9me/image/upload/v1627305603/speed_insc5v.png';
 
 	useEffect(() => {
 		
@@ -129,8 +129,9 @@ export default function Home() {
 	return (
 		<Banner>
 			<Canvas ref={canvas}></Canvas>
+
 			<video
-				// autoPlay
+				autoPlay
 				loop
 				muted
 				style={{
@@ -143,7 +144,7 @@ export default function Home() {
 					// zIndex: '-1',
 					top: '0',
 					left: '0',
-					// height: '80%',
+					height: '100%',
 					width: '100%',
 					zIndex: '-1',
 					willChang: 'transform',
@@ -153,10 +154,9 @@ export default function Home() {
 			</video>
 
 			<BannerTitle ref={fylTextCanvas}>
-				{/* <Headline>FYL</Headline> */}
+				<Headline>FYL</Headline>
+				<Headline>Deep</Headline>
 			</BannerTitle>
 		</Banner>
-
-			
 	);
 }

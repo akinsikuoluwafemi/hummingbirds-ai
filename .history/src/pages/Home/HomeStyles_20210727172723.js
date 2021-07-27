@@ -16,6 +16,7 @@ export const Banner = styled.div`
 	position: relative;
 	overflow-y: hidden!important;
 
+
 `
 
 

@@ -129,6 +129,7 @@ export default function Home() {
 	return (
 		<Banner>
 			<Canvas ref={canvas}></Canvas>
+
 			<video
 				// autoPlay
 				loop
@@ -153,10 +154,8 @@ export default function Home() {
 			</video>
 
 			<BannerTitle ref={fylTextCanvas}>
-				{/* <Headline>FYL</Headline> */}
+				<Headline>FYL</Headline>
 			</BannerTitle>
 		</Banner>
-
-			
 	);
 }

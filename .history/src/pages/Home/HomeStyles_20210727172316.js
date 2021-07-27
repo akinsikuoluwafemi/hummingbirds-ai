@@ -11,10 +11,12 @@ export const VideoLayer = styled.div`
 `;
 
 export const Banner = styled.div`
+	background: red;
 	height: 100vh!important;
 	width: 100%;
 	position: relative;
-	overflow-y: hidden!important;
+	
+
 
 `
 
@@ -37,12 +39,12 @@ export const Canvas = styled.canvas`
 export const BannerTitle = styled.h1`
 	// visibility: hidden;
 	// bottom: -120px;
-	position: absolute;
-
 	top: 50%;
 	left: -18px;
 	color: white;
+	background: red;
 	// z-index: 10;
+	position: absolute;
 	z-index: 4;
 	margin-top: 7rem;
 `;
